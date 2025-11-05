@@ -1,0 +1,47 @@
+---
+title: "A production index for the energy-intensive industry in Europe"
+date: "2025-10-01"
+author: "Marten Walk"
+affiliation: "UN DESA"
+image: default.jpeg
+google-scholar: true
+citation: 
+  type: report
+  publisher: "UN DESA"
+  publisher-location: "New York"
+url: 
+---
+
+The energy-intensive industry (EII) in Europe has been facing significant challenges in recent years, particularly due to rising energy costs and supply chain disruptions [@draghiFutureEuropeanCompetitiveness2024]. This has led to a noticeable decline in production levels within this sector compared to the broader manufacturing and services industries.
+
+To illustrate these trends, we present a production index tracking the performance of key EII sectors within the European Union, following the Methodology by @vogelBerechnungUndEntwicklung2023a.
+
+```{=html}
+<iframe title="Trends in services and manufacturing in the European Union" aria-label="Line chart" id="datawrapper-chart-NZeO4" src="https://datawrapper.dwcdn.net/NZeO4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+```
+
+The data for the index can be downloaded as a CSV [here](./EII_index.csv)
+
+## The importance of energy-intensive industries
+
+Energy-intensive sectors (EIS) are a cornerstone of the European economy, playing an essential role in minimizing the EU's reliance on external sources. These industries have a significant impact, both directly and through related downstream sectors, on the EU's overall economic output, job creation, and innovation. Key examples include chemicals, basic metals, non-metallic minerals (such as ceramics, glass, and cement), plastics, paper, wood products, and food.
+
+These 5 most energy intensive sectors—chemicals, basic metals, non-metallic minerals, paper, and printing—together represent a significant portion of the EU's industrial output. According to Eurostat, these five industries account for 16.3% of total industrial production in the EU, highlighting their substantial energy usage.
+
+The table below provides an overview of these sectors by NACE classification, including key examples of products and their share within the broader manufacturing sector:
+
+| NACE Classification | Description | Example Product | \% of Manufacturing Sector|
+|----------------|-----------------|--------------|--------------------------|
+| C17 | Manufacture of paper and paper products | Cardboard Boxes | 2.1% |
+| C18 | Printing and reproduction of recorded media | Newspapers | 1.1% |
+| C20 | Manufacture of chemicals and chemical products | Fertilisers | 6.5% |
+| C23 | Manufacture of other non-metallic mineral products | Glass | 3.4% |
+| C24 | Manufacture of basic metals | Steel | 3.1% |
+| **Total** |  |  | **16.3%** |
+: The 5 most energy-intensive sectors in the EU in 2021
+
+## Creating the Index
+
+The industrial production index is calculated by weighting different economic indices based on their gross value added at factor cost in the base year, then combining them to form an aggregated index. Our method follows the one by @vogelBerechnungUndEntwicklung2023a, who calculated an index for EII in Germany. In 2021, before the crisis hit, the manufacture of chemicals holds the largest share of industrial production and therefore receives the highest weighting among the five energy-intensive sectors. 
+
+The underlying code can be found [FIX]()

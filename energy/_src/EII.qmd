@@ -1,0 +1,160 @@
+---
+# dont run the code 
+eval: false
+echo: false
+---
+
+# Energy-Intensive Industries Indices
+
+This Code focuses on the production indices for the **five most energy-intensive industries** in the European Union, weighted by their gross value added.
+
+## Imports
+
+```{r}
+library(tidyverse)  # Data manipulation
+library(eurostat)   # Access Eurostat data
+library(wespggplot2) # Custom plotting theme
+```
+
+## Load Data
+
+We load the official data from Eurostat using the API (saved as RDS files for reproducibility):
+
+```{r}
+# Check access to Eurostat API
+check_access_to_data()
+```
+
+```{r}
+# Uncomment the following to directly pull data from Eurostat (commented out for reproducibility):
+df_prod <- get_eurostat("sts_inpr_q", filter = list(geo="EU27_2020"))
+saveRDS(df_prod, "df_prod.rds")
+
+# Load saved RDS files (for reproducibility)
+df_prod <- readRDS("df_prod.rds")
+```
+
+## Energy-Intensive Industries Data
+
+### Weighting Data (Gross Value Added by Sector)
+
+We focus on the **five most energy-intensive sectors** in manufacturing:
+
+* **C17**: Manufacture of Paper
+* **C18**: Printing and reproduction of recorded media
+* **C20**: Manufacture of chemicals and pharmaceuticals
+* **C23**: Manufacture of other non-metallic mineral products
+* **C24**: Manufacture of basic metals
+
+The data for these sectors is weighted according to their share in gross value added. We also estimate the value for **C20** (Manufacture of chemicals) from the Draghi Report due to confidentiality in Eurostat's dataset.
+
+```{r}
+df_weights <- get_eurostat("nama_10_a64", filter = list(geo="EU27_2020", time="2021"))
+saveRDS(df_weights, "df_weights.rds")
+```
+
+
+```{r}
+df_weights <- readRDS("df_weights.rds")
+```
+
+```{r}
+# Adjust weights for confidentiality (C20 is estimated from Draghi Report)
+weights <- df_weights %>%
+  filter(
+    nace_r2 %in% c("C17", "C18", "C20", "C23", "C24"),
+    na_item == "B1G",       # Gross Value Added
+    unit == "CP_MEUR"       # Million Euros
+  ) %>%
+  mutate(
+    values = case_when(
+      nace_r2 == "C20" ~ 144000, # Value from Draghi Report for C20
+      TRUE ~ values
+    ),
+    weight = values / sum(values) # Normalize the weights
+  ) %>%
+  select(nace_r2, weight)
+```
+
+### Composite Index for Energy-Intensive Industries
+
+We now calculate a composite index for the **energy-intensive industries**, weighting each sector’s production index by its share in gross value added.
+
+```{r}
+df_prod_cen <- df_prod %>%
+  filter(
+    time >= "2018-01-01",
+    nace_r2 %in% c("C17", "C18", "C20", "C23", "C24"),
+    s_adj == "SCA",       # Seasonally adjusted data
+    unit == "I21"         # Index with base 2021 = 100
+  ) %>%
+  left_join(weights, by = "nace_r2") %>%
+  group_by(time) %>%
+  mutate(C_EN = sum(values * weight)) %>%  # Weighted sum for composite index
+  ungroup() %>%
+  select(time, C_EN) %>%
+  reframe(
+    time = time,
+    values = C_EN,
+    nace_r2 = "C_EN"       # Label for composite index
+  ) %>%
+  distinct()
+```
+
+## Rebase Data to 2021-01-01 = 100
+
+We rebase the composite index so that January 2018 is set to 100 for consistency.
+
+```{r}
+df_prod_cen <- df_prod_cen %>%
+  group_by(nace_r2) %>%
+  mutate(
+    base_value = values[time == "2018-01-01"],
+    values = (values / base_value) * 100
+  ) %>%
+  select(-base_value) %>%
+  ungroup()
+
+# saveRDS(df_prod_cen, "df_energy_intensive_indices.rds")
+```
+
+## Plot
+
+We now create a plot for the composite index of **energy-intensive industries**, using a custom theme.
+
+```{r}
+p_indices <- df_prod_cen %>%
+  ggplot(aes(x = time, y = values, color = nace_r2)) +
+  geom_line() +
+  geom_hline(yintercept = 100, linetype = "dotted", color = "#7F7F7F") +
+  scale_color_manual(
+    labels = c(
+      "C_EN" = "Energy-intensive Industries"
+    ),
+    values = c(
+      "C_EN" = "#009EDB"
+    )
+  ) +
+  labs(
+    subtitle = "Trends in Energy-Intensive Industries in the European Union",
+    title = "Figure X: Energy-Intensive Industries Production Index",
+    x = "Time",
+    color = "Industry",
+    tag = "                       Jan 2018 = 100",
+    caption = "Source: UN DESA, based on Eurostat. Notes: Production index for energy-intensive industries is weighted by gross value added for the five most energy-intensive manufacturing sectors (NACE Classification: C17, C18, C20, C23, C24)."
+  ) +
+  wesp_theme() +
+  scale_x_date(date_breaks="1 year", date_labels="%Y")
+
+p_indices
+```
+
+## Save Index as CSV
+
+Finally, we save the composite index data as a CSV file for further analysis.
+
+```{r}
+write_csv(df_prod_cen, "../EII_index.csv")
+```
+
+
