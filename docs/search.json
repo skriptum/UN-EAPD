@@ -32,7 +32,7 @@
     "href": "energy/index.html#creating-the-index",
     "title": "A production index for the energy-intensive industry in Europe",
     "section": "Creating the Index",
-    "text": "Creating the Index\nThe industrial production index is calculated by weighting different economic indices based on their gross value added at factor cost in the base year, then combining them to form an aggregated index. Our method follows the one by Vogel, Neumann, and Linz (2023), who calculated an index for EII in Germany. In 2021, before the crisis hit, the manufacture of chemicals holds the largest share of industrial production and therefore receives the highest weighting among the five energy-intensive sectors.\nThe underlying code can be found FIX"
+    "text": "Creating the Index\nThe industrial production index is calculated by weighting different economic indices based on their gross value added at factor cost in the base year, then combining them to form an aggregated index. Our method follows the one by Vogel, Neumann, and Linz (2023), who calculated an index for EII in Germany. In 2021, before the crisis hit, the manufacture of chemicals holds the largest share of industrial production and therefore receives the highest weighting among the five energy-intensive sectors.\nThe underlying code can be found here"
   },
   {
     "objectID": "about.html",

@@ -9,7 +9,7 @@ citation:
   type: report
   publisher: "UN DESA"
   publisher-location: "New York"
-url: 
+  url: "https://skriptum.github.io/UN-EAPD/energy/"
 ---
 
 The energy-intensive industry (EII) in Europe has been facing significant challenges in recent years, particularly due to rising energy costs and supply chain disruptions [@draghiFutureEuropeanCompetitiveness2024]. This has led to a noticeable decline in production levels within this sector compared to the broader manufacturing and services industries.
@@ -44,4 +44,4 @@ The table below provides an overview of these sectors by NACE classification, in
 
 The industrial production index is calculated by weighting different economic indices based on their gross value added at factor cost in the base year, then combining them to form an aggregated index. Our method follows the one by @vogelBerechnungUndEntwicklung2023a, who calculated an index for EII in Germany. In 2021, before the crisis hit, the manufacture of chemicals holds the largest share of industrial production and therefore receives the highest weighting among the five energy-intensive sectors. 
 
-The underlying code can be found [FIX]()
+The underlying code can be found [here](https://github.com/skriptum/UN-EAPD/blob/main/energy/_src/EII.qmd)
