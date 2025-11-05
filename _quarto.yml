@@ -1,0 +1,33 @@
+project:
+  type: website
+
+bibliography: eapd.bib
+reference-location: margin
+
+website:
+  navbar:
+    title: "United Nations GEMB"
+    tools:
+      - icon: github
+        href: https://github.com/skriptum/UN-EAPD
+      - icon: globe
+        href: https://policy.desa.un.org/
+    left:
+      - text: "Home"
+        href: index.qmd
+        target: "_blank"
+      - text: "About Us"
+        href: about.qmd
+      - text: WEFM
+        href: WEFM.qmd
+      - text: "Publications"
+        href: "https://policy.desa.un.org/unit/global-economic-monitoring-unit"
+        target: "_blank"
+    logo: "static/logo_un.png"
+
+
+
+theme: 
+  - brand
+  - litera
+

@@ -1,0 +1,7 @@
+/.quarto/
+*.code-workspace
+.vscode/
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/

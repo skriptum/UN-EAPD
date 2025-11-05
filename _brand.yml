@@ -1,0 +1,12 @@
+color:
+  palette:
+    blue: "#009edb"
+  background: white
+  foreground: black
+
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+  headings: Roboto
+  base: Roboto

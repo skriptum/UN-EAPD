@@ -1,0 +1,17 @@
+---
+pagetitle: GEMB
+listing:
+  contents:
+    - energy/index.qmd
+  type: grid
+---
+
+
+![](static/logo-en.svg){width="50%" align=center}
+
+# Global Economic Monitoring Branch 
+
+Collection of projects by the [Global Economic Monitoring Branch](https://policy.desa.un.org/about-us/global-economic-monitoring-branch) at the *United Nations Department of Economic and Social Affairs*
+
+## Projects
+
