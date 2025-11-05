@@ -1,0 +1,18 @@
+---
+title: World Economic Forecasting Model
+---
+
+The World Economic Forecasting Model (WEFM) was developed to allow the UN Development
+Policy Analysis Division to produce consistent forecasts for the global economy for use in its
+flagship publication, World Economic Situation and Prospects (WESP) and the WESP Update,
+and for the forecasts presented at annual meetings of Project LINK. The WEFM evolved from
+the original Project LINK programme, which started in the 1960s, and linked together individual
+country macro-models from up to 80 different countries in order to compute a joint global
+forecast. The WEFM is also used to produce alternative scenarios around the central forecast.
+Examples include the impact of a resurgence in the euro area debt crisis; a sharp adjustment in
+global energy prices; a fiscal stimulus coordinated among the largest economies; migration flows
+in Europe; conventional and unconventional monetary policy shocks; and a slowdown in trend
+productivity growth. The flexible model platform can be adapted to address a wide range of
+policy questions.
+
+[Further Reading (PDF)](https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/2016_Apr_WorldEconomicForecastingModel.pdf)
