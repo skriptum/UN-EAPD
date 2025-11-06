@@ -24,7 +24,7 @@ The data for the index can be downloaded as a CSV [here](./EII_index.csv)
 
 ## The importance of energy-intensive industries
 
-Energy-intensive sectors (EIS) are a cornerstone of the European economy, playing an essential role in minimizing the EU's reliance on external sources. These industries have a significant impact, both directly and through related downstream sectors, on the EU's overall economic output, job creation, and innovation. Key examples include chemicals, basic metals, non-metallic minerals (such as ceramics, glass, and cement), plastics, paper, wood products, and food.
+Energy-intensive sectors are a cornerstone of the European economy, playing an essential role in minimizing the EU's reliance on external sources. These industries have a significant impact, both directly and through related downstream sectors, on the EU's overall economic output, job creation, and innovation. Key examples include chemicals, basic metals, non-metallic minerals (such as ceramics, glass, and cement), plastics, paper, wood products, and food.
 
 These 5 most energy intensive sectors—chemicals, basic metals, non-metallic minerals, paper, and printing—together represent a significant portion of the EU's industrial output. According to Eurostat, these five industries account for 16.3% of total industrial production in the EU, highlighting their substantial energy usage.
 

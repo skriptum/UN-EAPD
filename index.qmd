@@ -11,7 +11,7 @@ listing:
 
 # Global Economic Monitoring Branch 
 
-Collection of projects by the [Global Economic Monitoring Branch](https://policy.desa.un.org/about-us/global-economic-monitoring-branch) at the *United Nations Department of Economic and Social Affairs*
+Collection of ressources / data by the [Global Economic Monitoring Branch](https://policy.desa.un.org/about-us/global-economic-monitoring-branch) at the *United Nations Department of Economic and Social Affairs*
 
-## Projects
+## Ressources
 

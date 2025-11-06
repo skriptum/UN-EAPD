@@ -7,7 +7,6 @@ reference-location: margin
 
 website:
   navbar:
-    title: "United Nations GEMB"
     tools:
       - icon: github
         href: https://github.com/skriptum/UN-EAPD
@@ -24,7 +23,8 @@ website:
       - text: "Publications"
         href: "https://policy.desa.un.org/unit/global-economic-monitoring-unit"
         target: "_blank"
-    logo: "static/logo_un.png"
+    logo: "static/GEMB.png"
+  favicon: "static/favicon.ico"
 
 
 
