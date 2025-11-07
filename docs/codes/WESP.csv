@@ -1,0 +1,180 @@
+iso3c,country,short_country,status,wesp_region,wesp_subregion,country_code,region,sub_region,intermediate_region,LDC,LLDC
+AFG,Afghanistan,Afghanistan,DVG,Asia,South Asia,004,Asia,Southern Asia,NA,0,0
+ALB,Albania,Albania,EIT,South-Eastern Europe,NA,008,Europe,Southern Europe,NA,0,0
+DZA,Algeria,Algeria,DVG,Africa,North Africa,012,Africa,Northern Africa,NA,0,0
+AGO,Angola,Angola,DVG,Africa,Southern Africa,024,Africa,Sub-Saharan Africa,Middle Africa,0,0
+ARG,Argentina,Argentina,DVG,Latin America and the Caribbean,South America,032,Americas,Latin America and the Caribbean,South America,0,0
+ARM,Armenia,Armenia,EIT,Commonwealth of Independent States and Georgia,NA,051,Asia,Western Asia,NA,0,0
+AUS,Australia,Australia,DVD,Developed Asia and the Pacific,NA,036,Oceania,Australia and New Zealand,NA,0,0
+AUT,Austria,Austria,DVD,Europe,European Union,040,Europe,Western Europe,NA,0,0
+AZE,Azerbaijan,Azerbaijan,EIT,Commonwealth of Independent States and Georgia,NA,031,Asia,Western Asia,NA,0,0
+BHS,Bahamas,Bahamas,DVG,Latin America and the Caribbean,Caribbean,044,Americas,Latin America and the Caribbean,Caribbean,0,0
+BHR,Bahrain,Bahrain,DVG,Asia,Western Asia,048,Asia,Western Asia,NA,0,0
+BGD,Bangladesh,Bangladesh,DVG,Asia,South Asia,050,Asia,Southern Asia,NA,0,0
+BRB,Barbados,Barbados,DVG,Latin America and the Caribbean,Caribbean,052,Americas,Latin America and the Caribbean,Caribbean,0,0
+BLR,Belarus,Belarus,EIT,Commonwealth of Independent States and Georgia,NA,112,Europe,Eastern Europe,NA,0,0
+BEL,Belgium,Belgium,DVD,Europe,European Union,056,Europe,Western Europe,NA,0,0
+BLZ,Belize,Belize,DVG,Latin America and the Caribbean,Caribbean,084,Americas,Latin America and the Caribbean,Central America,0,0
+BEN,Benin,Benin,DVG,Africa,West Africa,204,Africa,Sub-Saharan Africa,Western Africa,1,0
+BTN,Bhutan,Bhutan,DVG,Asia,South Asia,064,Asia,Southern Asia,NA,0,0
+BOL,Bolivia (Plurinational State of),Bolivia,DVG,Latin America and the Caribbean,South America,068,Americas,Latin America and the Caribbean,South America,0,0
+BIH,Bosnia and Herzegovina,Bosnia_Herz,EIT,South-Eastern Europe,NA,070,Europe,Southern Europe,NA,0,0
+BWA,Botswana,Botswana,DVG,Africa,Southern Africa,072,Africa,Sub-Saharan Africa,Southern Africa,0,0
+BRA,Brazil,Brazil,DVG,Latin America and the Caribbean,South America,076,Americas,Latin America and the Caribbean,South America,0,0
+BRN,Brunei Darussalam,Brunei,DVG,Asia,East Asia,096,Asia,South-eastern Asia,NA,0,0
+BGR,Bulgaria,Bulgaria,DVD,Europe,European Union,100,Europe,Eastern Europe,NA,0,0
+BFA,Burkina Faso,Burkina_Faso,DVG,Africa,West Africa,854,Africa,Sub-Saharan Africa,Western Africa,1,1
+BDI,Burundi,Burundi,DVG,Africa,East Africa,108,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+CPV,Cabo Verde,Cabo_Verde,DVG,Africa,West Africa,132,Africa,Sub-Saharan Africa,Western Africa,0,0
+KHM,Cambodia,Cambodia,DVG,Asia,East Asia,116,Asia,South-eastern Asia,NA,1,0
+CMR,Cameroon,Cameroon,DVG,Africa,Central Africa,120,Africa,Sub-Saharan Africa,Middle Africa,0,0
+CAN,Canada,Canada,DVD,North America,NA,124,Americas,Northern America,NA,0,0
+CAF,Central African Republic,Cen_Afr_Rep,DVG,Africa,Central Africa,140,Africa,Sub-Saharan Africa,Middle Africa,1,1
+TCD,Chad,Chad,DVG,Africa,Central Africa,148,Africa,Sub-Saharan Africa,Middle Africa,1,1
+CHL,Chile,Chile,DVG,Latin America and the Caribbean,South America,152,Americas,Latin America and the Caribbean,South America,0,0
+CHN,China,China,DVG,Asia,East Asia,156,Asia,Eastern Asia,NA,0,0
+COL,Colombia,Colombia,DVG,Latin America and the Caribbean,South America,170,Americas,Latin America and the Caribbean,South America,0,0
+COM,Comoros,Comoros,DVG,Africa,East Africa,174,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+COG,Congo,Congo,DVG,Africa,Central Africa,178,Africa,Sub-Saharan Africa,Middle Africa,0,0
+CRI,Costa Rica,Costa_Rica,DVG,Latin America and the Caribbean,Mexico and Central America,188,Americas,Latin America and the Caribbean,Central America,0,0
+CIV,Côte d’Ivoire,Cote_DIvoire,DVG,Africa,West Africa,384,Africa,Sub-Saharan Africa,Western Africa,0,0
+HRV,Croatia,Croatia,DVD,Europe,European Union,191,Europe,Southern Europe,NA,0,0
+CUB,Cuba,Cuba,DVG,Latin America and the Caribbean,Mexico and Central America,192,Americas,Latin America and the Caribbean,Caribbean,0,0
+CYP,Cyprus,Cyprus,DVD,Europe,European Union,196,Asia,Western Asia,NA,0,0
+CZE,Czechia,Czech_Rep,DVD,Europe,European Union,203,Europe,Eastern Europe,NA,0,0
+PRK,Democratic People's Republic of Korea,DPRK,DVG,Asia,East Asia,408,Asia,Eastern Asia,NA,0,0
+COD,Democratic Republic of the Congo,DR_Congo,DVG,Africa,East Africa,180,Africa,Sub-Saharan Africa,Middle Africa,1,0
+DNK,Denmark,Denmark,DVD,Europe,European Union,208,Europe,Northern Europe,NA,0,0
+DJI,Djibouti,Djibouti,DVG,Africa,East Africa,262,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+DOM,Dominican Republic,Dominican_Rep,DVG,Latin America and the Caribbean,Mexico and Central America,214,Americas,Latin America and the Caribbean,Caribbean,0,0
+ECU,Ecuador,Ecuador,DVG,Latin America and the Caribbean,South America,218,Americas,Latin America and the Caribbean,South America,0,0
+EGY,Egypt,Egypt,DVG,Africa,North Africa,818,Africa,Northern Africa,NA,0,0
+SLV,El Salvador,El_Salvador,DVG,Latin America and the Caribbean,Mexico and Central America,222,Americas,Latin America and the Caribbean,Central America,0,0
+GNQ,Equatorial Guinea,Eq_Guinea,DVG,Africa,Central Africa,226,Africa,Sub-Saharan Africa,Middle Africa,0,0
+ERI,Eritrea,Eritrea,DVG,Africa,East Africa,232,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+EST,Estonia,Estonia,DVD,Europe,European Union,233,Europe,Northern Europe,NA,0,0
+SWZ,Eswatini,eSwatini,DVG,Africa,Southern Africa,748,Africa,Sub-Saharan Africa,Southern Africa,0,1
+ETH,Ethiopia,Ethiopia,DVG,Africa,East Africa,231,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+FJI,Fiji,Fiji,DVG,Asia,East Asia,242,Oceania,Melanesia,NA,0,0
+FIN,Finland,Finland,DVD,Europe,European Union,246,Europe,Northern Europe,NA,0,0
+FRA,France,France,DVD,Europe,European Union,250,Europe,Western Europe,NA,0,0
+GAB,Gabon,Gabon,DVG,Africa,Central Africa,266,Africa,Sub-Saharan Africa,Middle Africa,0,0
+GMB,Gambia,Gambia,DVG,Africa,West Africa,270,Africa,Sub-Saharan Africa,Western Africa,1,0
+GEO,Georgia,Georgia,EIT,Commonwealth of Independent States and Georgia,NA,268,Asia,Western Asia,NA,0,0
+DEU,Germany,Germany,DVD,Europe,European Union,276,Europe,Western Europe,NA,0,0
+GHA,Ghana,Ghana,DVG,Africa,West Africa,288,Africa,Sub-Saharan Africa,Western Africa,0,0
+GRC,Greece,Greece,DVD,Europe,European Union,300,Europe,Southern Europe,NA,0,0
+GTM,Guatemala,Guatemala,DVG,Latin America and the Caribbean,Mexico and Central America,320,Americas,Latin America and the Caribbean,Central America,0,0
+GIN,Guinea,Guinea,DVG,Africa,West Africa,324,Africa,Sub-Saharan Africa,Western Africa,1,0
+GNB,Guinea-Bissau,Guinea_Bissau,DVG,Africa,West Africa,624,Africa,Sub-Saharan Africa,Western Africa,1,0
+GUY,Guyana,Guyana,DVG,Latin America and the Caribbean,Caribbean,328,Americas,Latin America and the Caribbean,South America,0,0
+HTI,Haiti,Haiti,DVG,Latin America and the Caribbean,Mexico and Central America,332,Americas,Latin America and the Caribbean,Caribbean,1,0
+HND,Honduras,Honduras,DVG,Latin America and the Caribbean,Mexico and Central America,340,Americas,Latin America and the Caribbean,Central America,0,0
+HKG,Hong Kong Special Administrative Region of China,Hong_Kong,DVG,Asia,East Asia,344,Asia,Eastern Asia,NA,0,0
+HUN,Hungary,Hungary,DVD,Europe,European Union,348,Europe,Eastern Europe,NA,0,0
+ISL,Iceland,Iceland,DVD,Europe,Other Europe,352,Europe,Northern Europe,NA,0,0
+IND,India,India,DVG,Asia,South Asia,356,Asia,Southern Asia,NA,0,0
+IDN,Indonesia,Indonesia,DVG,Asia,East Asia,360,Asia,South-eastern Asia,NA,0,0
+IRN,Iran (Islamic Republic of),Iran,DVG,Asia,South Asia,364,Asia,Southern Asia,NA,0,0
+IRQ,Iraq,Iraq,DVG,Asia,Western Asia,368,Asia,Western Asia,NA,0,0
+IRL,Ireland,Ireland,DVD,Europe,European Union,372,Europe,Northern Europe,NA,0,0
+ISR,Israel,Israel,DVG,Asia,Western Asia,376,Asia,Western Asia,NA,0,0
+ITA,Italy,Italy,DVD,Europe,European Union,380,Europe,Southern Europe,NA,0,0
+JAM,Jamaica,Jamaica,DVG,Latin America and the Caribbean,Caribbean,388,Americas,Latin America and the Caribbean,Caribbean,0,0
+JPN,Japan,Japan,DVD,Developed Asia and the Pacific,NA,392,Asia,Eastern Asia,NA,0,0
+JOR,Jordan,Jordan,DVG,Asia,Western Asia,400,Asia,Western Asia,NA,0,0
+KAZ,Kazakhstan,Kazakhstan,EIT,Commonwealth of Independent States and Georgia,NA,398,Asia,Central Asia,NA,0,1
+KEN,Kenya,Kenya,DVG,Africa,East Africa,404,Africa,Sub-Saharan Africa,Eastern Africa,0,0
+KIR,Kiribati,Kiribati,DVG,Asia,East Asia,296,Oceania,Micronesia,NA,1,0
+KWT,Kuwait,Kuwait,DVG,Asia,Western Asia,414,Asia,Western Asia,NA,0,0
+KGZ,Kyrgyzstan,Kyrgyzstan,EIT,Commonwealth of Independent States and Georgia,NA,417,Asia,Central Asia,NA,0,1
+LAO,Lao People’s Democratic Republic,Lao_PDR,DVG,Asia,East Asia,418,Asia,South-eastern Asia,NA,1,1
+LVA,Latvia,Latvia,DVD,Europe,European Union,428,Europe,Northern Europe,NA,0,0
+LBN,Lebanon,Lebanon,DVG,Asia,Western Asia,422,Asia,Western Asia,NA,0,0
+LSO,Lesotho,Lesotho,DVG,Africa,Southern Africa,426,Africa,Sub-Saharan Africa,Southern Africa,1,1
+LBR,Liberia,Liberia,DVG,Africa,West Africa,430,Africa,Sub-Saharan Africa,Western Africa,1,0
+LBY,Libya,Libya,DVG,Africa,North Africa,434,Africa,Northern Africa,NA,0,0
+LTU,Lithuania,Lithuania,DVD,Europe,European Union,440,Europe,Northern Europe,NA,0,0
+LUX,Luxembourg,Luxembourg,DVD,Europe,European Union,442,Europe,Western Europe,NA,0,0
+MDG,Madagascar,Madagascar,DVG,Africa,East Africa,450,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+MWI,Malawi,Malawi,DVG,Africa,Southern Africa,454,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+MYS,Malaysia,Malaysia,DVG,Asia,East Asia,458,Asia,South-eastern Asia,NA,0,0
+MDV,Maldives,Maldives,DVG,Asia,South Asia,462,Asia,Southern Asia,NA,0,0
+MLI,Mali,Mali,DVG,Africa,West Africa,466,Africa,Sub-Saharan Africa,Western Africa,1,1
+MLT,Malta,Malta,DVD,Europe,European Union,470,Europe,Southern Europe,NA,0,0
+MRT,Mauritania,Mauritania,DVG,Africa,North Africa,478,Africa,Sub-Saharan Africa,Western Africa,1,0
+MUS,Mauritius,Mauritius,DVG,Africa,Southern Africa,480,Africa,Sub-Saharan Africa,Eastern Africa,0,0
+MEX,Mexico,Mexico,DVG,Latin America and the Caribbean,Mexico and Central America,484,Americas,Latin America and the Caribbean,Central America,0,0
+MNG,Mongolia,Mongolia,DVG,Asia,East Asia,496,Asia,Eastern Asia,NA,0,1
+MNE,Montenegro,Montenegro,EIT,South-Eastern Europe,NA,499,Europe,Southern Europe,NA,0,0
+MAR,Morocco,Morocco,DVG,Africa,North Africa,504,Africa,Northern Africa,NA,0,0
+MOZ,Mozambique,Mozambique,DVG,Africa,Southern Africa,508,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+MMR,Myanmar,Myanmar,DVG,Asia,East Asia,104,Asia,South-eastern Asia,NA,1,0
+NAM,Namibia,Namibia,DVG,Africa,Southern Africa,516,Africa,Sub-Saharan Africa,Southern Africa,0,0
+NPL,Nepal,Nepal,DVG,Asia,South Asia,524,Asia,Southern Asia,NA,1,1
+NLD,Netherlands (Kingdom of the),Netherlands,DVD,Europe,European Union,528,Europe,Western Europe,NA,0,0
+NZL,New Zealand,New_Zealand,DVD,Developed Asia and the Pacific,NA,554,Oceania,Australia and New Zealand,NA,0,0
+NIC,Nicaragua,Nicaragua,DVG,Latin America and the Caribbean,Mexico and Central America,558,Americas,Latin America and the Caribbean,Central America,0,0
+NER,Niger,Niger,DVG,Africa,West Africa,562,Africa,Sub-Saharan Africa,Western Africa,1,1
+NGA,Nigeria,Nigeria,DVG,Africa,West Africa,566,Africa,Sub-Saharan Africa,Western Africa,0,0
+MKD,North Macedonia,North_Macedonia,EIT,South-Eastern Europe,NA,807,Europe,Southern Europe,NA,0,1
+NOR,Norway,Norway,DVD,Europe,Other Europe,578,Europe,Northern Europe,NA,0,0
+OMN,Oman,Oman,DVG,Asia,Western Asia,512,Asia,Western Asia,NA,0,0
+PAK,Pakistan,Pakistan,DVG,Asia,South Asia,586,Asia,Southern Asia,NA,0,0
+PAN,Panama,Panama,DVG,Latin America and the Caribbean,Mexico and Central America,591,Americas,Latin America and the Caribbean,Central America,0,0
+PNG,Papua New Guinea,Papua_New_G,DVG,Asia,East Asia,598,Oceania,Melanesia,NA,0,0
+PRY,Paraguay,Paraguay,DVG,Latin America and the Caribbean,South America,600,Americas,Latin America and the Caribbean,South America,0,1
+PER,Peru,Peru,DVG,Latin America and the Caribbean,South America,604,Americas,Latin America and the Caribbean,South America,0,0
+PHL,Philippines,Philippines,DVG,Asia,East Asia,608,Asia,South-eastern Asia,NA,0,0
+POL,Poland,Poland,DVD,Europe,European Union,616,Europe,Eastern Europe,NA,0,0
+PRT,Portugal,Portugal,DVD,Europe,European Union,620,Europe,Southern Europe,NA,0,0
+QAT,Qatar,Qatar,DVG,Asia,Western Asia,634,Asia,Western Asia,NA,0,0
+KOR,Republic of Korea,Rep_Korea,DVD,Developed Asia and the Pacific,NA,410,Asia,Eastern Asia,NA,0,0
+MDA,Republic of Moldova,Moldova,EIT,Commonwealth of Independent States and Georgia,NA,498,Europe,Eastern Europe,NA,0,1
+ROU,Romania,Romania,DVD,Europe,European Union,642,Europe,Eastern Europe,NA,0,0
+RUS,Russian Federation,Russian_Fed,EIT,Commonwealth of Independent States and Georgia,NA,643,Europe,Eastern Europe,NA,0,0
+RWA,Rwanda,Rwanda,DVG,Africa,East Africa,646,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+WSM,Samoa,Samoa,DVG,Asia,East Asia,882,Oceania,Polynesia,NA,0,0
+STP,Sao Tome and Principe,Sao_Tome_Prin,DVG,Africa,Central Africa,678,Africa,Sub-Saharan Africa,Middle Africa,1,0
+SAU,Saudi Arabia,Saudi_Arabia,DVG,Asia,Western Asia,682,Asia,Western Asia,NA,0,0
+SEN,Senegal,Senegal,DVG,Africa,West Africa,686,Africa,Sub-Saharan Africa,Western Africa,1,0
+SRB,Serbia,Serbia,EIT,South-Eastern Europe,NA,688,Europe,Southern Europe,NA,0,0
+SLE,Sierra Leone,Sierra_Leone,DVG,Africa,West Africa,694,Africa,Sub-Saharan Africa,Western Africa,1,0
+SGP,Singapore,Singapore,DVG,Asia,East Asia,702,Asia,South-eastern Asia,NA,0,0
+SVK,Slovakia,Slovakia,DVD,Europe,European Union,703,Europe,Eastern Europe,NA,0,0
+SVN,Slovenia,Slovenia,DVD,Europe,European Union,705,Europe,Southern Europe,NA,0,0
+SLB,Solomon Islands,Solomon_Isl,DVG,Asia,East Asia,090,Oceania,Melanesia,NA,0,0
+SOM,Somalia,Somalia,DVG,Africa,East Africa,706,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+ZAF,South Africa,South_Africa,DVG,Africa,Southern Africa,710,Africa,Sub-Saharan Africa,Southern Africa,0,0
+SSD,South Sudan,South_Sudan,DVG,Africa,East Africa,728,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+ESP,Spain,Spain,DVD,Europe,European Union,724,Europe,Southern Europe,NA,0,0
+LKA,Sri Lanka,Sri_Lanka,DVG,Asia,South Asia,144,Asia,Southern Asia,NA,0,0
+PSE,State of Palestine,Palestine,DVG,Asia,Western Asia,275,Asia,Western Asia,NA,0,0
+SDN,Sudan,Sudan,DVG,Africa,North Africa,729,Africa,Northern Africa,NA,1,0
+SUR,Suriname,Suriname,DVG,Latin America and the Caribbean,Caribbean,740,Americas,Latin America and the Caribbean,South America,0,0
+SWE,Sweden,Sweden,DVD,Europe,European Union,752,Europe,Northern Europe,NA,0,0
+CHE,Switzerland,Switzerland,DVD,Europe,Other Europe,756,Europe,Western Europe,NA,0,0
+SYR,Syrian Arab Republic,Syria,DVG,Asia,Western Asia,760,Asia,Western Asia,NA,0,0
+TWN,Taiwan Province of China,Taiwan,DVG,Asia,East Asia,158,NA,NA,NA,0,0
+TJK,Tajikistan,Tajikistan,EIT,Commonwealth of Independent States and Georgia,NA,762,Asia,Central Asia,NA,0,1
+THA,Thailand,Thailand,DVG,Asia,East Asia,764,Asia,South-eastern Asia,NA,0,0
+TLS,Timor-Leste,Timor_Leste,DVG,Asia,East Asia,626,Asia,South-eastern Asia,NA,1,0
+TGO,Togo,Togo,DVG,Africa,West Africa,768,Africa,Sub-Saharan Africa,Western Africa,1,0
+TTO,Trinidad and Tobago,Trinidad_Tob,DVG,Latin America and the Caribbean,Caribbean,780,Americas,Latin America and the Caribbean,Caribbean,0,0
+TUN,Tunisia,Tunisia,DVG,Africa,North Africa,788,Africa,Northern Africa,NA,0,0
+TUR,Türkiye,Turkey,DVG,Asia,Western Asia,792,Asia,Western Asia,NA,0,0
+TKM,Turkmenistan,Turkmenistan,EIT,Commonwealth of Independent States and Georgia,NA,795,Asia,Central Asia,NA,0,1
+UGA,Uganda,Uganda,DVG,Africa,East Africa,800,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+UKR,Ukraine,Ukraine,EIT,Commonwealth of Independent States and Georgia,NA,804,Europe,Eastern Europe,NA,0,0
+ARE,United Arab Emirates,UAE,DVG,Asia,Western Asia,784,Asia,Western Asia,NA,0,0
+GBR,United Kingdom of Great Britain and Northern Ireland,UK,DVD,Europe,Other Europe,826,Europe,Northern Europe,NA,0,0
+TZA,United Republic of Tanzania,Tanzania,DVG,Africa,East Africa,834,Africa,Sub-Saharan Africa,Eastern Africa,1,0
+USA,United States of America,USA,DVD,North America,NA,840,Americas,Northern America,NA,0,0
+URY,Uruguay,Uruguay,DVG,Latin America and the Caribbean,South America,858,Americas,Latin America and the Caribbean,South America,0,0
+UZB,Uzbekistan,Uzbekistan,EIT,Commonwealth of Independent States and Georgia,NA,860,Asia,Central Asia,NA,0,1
+VUT,Vanuatu,Vanuatu,DVG,Asia,East Asia,548,Oceania,Melanesia,NA,1,0
+VEN,Venezuela (Bolivarian Republic of),Venezuela,DVG,Latin America and the Caribbean,South America,862,Americas,Latin America and the Caribbean,South America,0,0
+VNM,Viet Nam,Viet_Nam,DVG,Asia,East Asia,704,Asia,South-eastern Asia,NA,0,0
+YEM,Yemen,Yemen,DVG,Asia,Western Asia,887,Asia,Western Asia,NA,1,0
+ZMB,Zambia,Zambia,DVG,Africa,Southern Africa,894,Africa,Sub-Saharan Africa,Eastern Africa,1,1
+ZWE,Zimbabwe,Zimbabwe,DVG,Africa,Southern Africa,716,Africa,Sub-Saharan Africa,Eastern Africa,0,1

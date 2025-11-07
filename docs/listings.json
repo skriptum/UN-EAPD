@@ -2,7 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/energy/index.html"
+      "/energy/index.html",
+      "/codes/index.html"
     ]
   }
 ]

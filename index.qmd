@@ -4,6 +4,7 @@ listing:
   id: listing1
   contents:
     - energy/index.qmd
+    - codes/index.qmd
   type: grid
 ---
 

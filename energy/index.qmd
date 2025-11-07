@@ -1,7 +1,6 @@
 ---
 title: "A production index for the energy-intensive industry in Europe"
 date: "2025-10-01"
-author: "Marten Walk"
 affiliation: "UN DESA"
 image: default.jpeg
 google-scholar: true

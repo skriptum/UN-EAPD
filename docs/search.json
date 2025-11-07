@@ -11,7 +11,7 @@
     "href": "index.html#ressources",
     "title": "Global Economic Monitoring Branch",
     "section": "Ressources",
-    "text": "Ressources\n\n\n\n\n\n\n\n\n\n\nA production index for the energy-intensive industry in Europe\n\n\n\n\n\n\nMarten Walk\n\n\nOct 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Ressources\n\n\n\n\n\n\n\n\n\n\nA production index for the energy-intensive industry in Europe\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGEMB Classification\n\n\n\n\n\n\n\n\n\nNov 1, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "energy/index.html",
@@ -40,5 +40,12 @@
     "title": "About Us",
     "section": "",
     "text": "The Global Economic Monitoring Branch (GEMB) monitors and analyses global economic trends and prospects and their implications for the implementation of the 2030 Agenda. Using its World Economic Forecasting Model, GEMB produces globally-consistent economic forecasts for a large number of developed, emerging and developing economies.\nGEMB leads the production and dissemination of the World Economic Situation and Prospects (WESP) – the definitive report of the United Nations system on the state of the global economy – in partnership with the United Nations Conference on Trade and Development (UNCTAD), the five United Nations Regional Commissions and the United Nations World Tourism Organization.\nGEMB also provides policy advice and capacity development support to developing countries on macroeconomic modelling and policy options, emphasizing the need for stronger linkages between short-term macroeconomic and long-term development policies."
+  },
+  {
+    "objectID": "codes/index.html",
+    "href": "codes/index.html",
+    "title": "GEMB Classification",
+    "section": "",
+    "text": "A dataset of the regional classification of countries, downloadable as CSV here\n\n\n\n\nCitationBibTeX citation:@report{2025,\n  author = {},\n  publisher = {UN DESA},\n  title = {GEMB {Classification}},\n  date = {2025-11-01},\n  url = {https://skriptum.github.io/UN-EAPD/codes/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“GEMB Classification.” 2025. UN DESA. https://skriptum.github.io/UN-EAPD/codes/."
   }
 ]

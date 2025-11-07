@@ -1,0 +1,18 @@
+---
+title: "GEMB Classification"
+date: "2025-11-01"
+affiliation: "UN DESA"
+google-scholar: true
+image: default.png
+citation: 
+  type: report
+  publisher: "UN DESA"
+  publisher-location: "New York"
+  url: "https://skriptum.github.io/UN-EAPD/codes/"
+---
+
+A dataset of the regional classification of countries, downloadable as CSV [here](./WESP.csv)
+
+```{=html}
+<iframe title="WESP Regional Classification" aria-label="Table" id="datawrapper-chart-ETsSD" src="https://datawrapper.dwcdn.net/ETsSD/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="5538" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+```
