@@ -8,8 +8,6 @@ reference-location: margin
 website:
   navbar:
     tools:
-      - icon: github
-        href: https://github.com/skriptum/UN-EAPD
       - icon: globe
         href: https://policy.desa.un.org/
     left:
@@ -24,10 +22,15 @@ website:
         target: "_blank"
     logo: "static/GEMB.png"
   favicon: "static/favicon.ico"
+  page-footer:
+    background: "#333333"
+    left: "© United Nations Department of Economic and Social Affairs"
+    border: "#009edb"
+  search: false
 
 
 
 theme: 
   - brand
-  - litera
+  - styles.scss
 

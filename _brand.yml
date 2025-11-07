@@ -1,6 +1,4 @@
 color:
-  palette:
-    blue: "#009edb"
   background: white
   foreground: black
 

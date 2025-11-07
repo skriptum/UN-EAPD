@@ -1,6 +1,7 @@
 ---
 pagetitle: GEMB
 listing:
+  id: listing1
   contents:
     - energy/index.qmd
   type: grid
@@ -14,4 +15,7 @@ listing:
 Collection of ressources / data by the [Global Economic Monitoring Branch](https://policy.desa.un.org/about-us/global-economic-monitoring-branch) at the *United Nations Department of Economic and Social Affairs*
 
 ## Ressources
+
+:::{#listing1}
+:::
 
