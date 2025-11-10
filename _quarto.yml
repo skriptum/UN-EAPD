@@ -8,8 +8,9 @@ reference-location: margin
 website:
   navbar:
     tools:
-      - icon: globe
+      - icon: box-arrow-up-right
         href: https://policy.desa.un.org/
+        target: "_blank"
     left:
       - text: "Home"
         href: index.qmd
@@ -20,6 +21,7 @@ website:
       - text: "Publications"
         href: "https://policy.desa.un.org/unit/global-economic-monitoring-unit"
         target: "_blank"
+        icon: arrow-up-right
     logo: "static/GEMB.png"
   favicon: "static/favicon.ico"
   page-footer:
