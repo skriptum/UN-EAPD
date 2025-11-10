@@ -13,7 +13,7 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "About Us"
+      - text: "About"
         href: about.qmd
       - text: WEFM
         href: WEFM.qmd

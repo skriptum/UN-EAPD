@@ -1,6 +1,10 @@
 color:
+  palette:
+    blue: "#009edb"
+    gray: "#333333"
   background: white
   foreground: black
+  primary: blue
 
 typography:
   fonts:
