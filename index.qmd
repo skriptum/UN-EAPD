@@ -5,6 +5,7 @@ listing:
   contents:
     - energy/index.qmd
     - codes/index.qmd
+    - dashboard.qmd
   type: grid
 ---
 

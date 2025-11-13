@@ -1,0 +1,19 @@
+---
+title-block-header: false
+image: ../static/dashboard.png
+description: "A dashboard example for the WESP"
+title: "WESP Dashboard"
+backgroundcolor: "#f8f9fa"
+sidebar: false  
+---
+
+This dashboard is embedded using an Iframe from the original [https://skriptum.github.io/gemb-dashboard/](https://skriptum.github.io/gemb-dashboard/)
+
+::: {.column-page}
+
+```{=html}
+<iframe src="https://skriptum.github.io/gemb-dashboard/" width=100% height=500px> </iframe>
+```
+
+
+:::
